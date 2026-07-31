@@ -1,0 +1,33 @@
+generated: '2026-07-20'
+method: searched
+source: https://docs.modelcode.ai/support/whats-new
+product: The Morph Platform
+scheme: dated-monthly
+notes: >-
+  Morph publishes a dated "What's New" page rather than a semantically versioned
+  API changelog (Modelcode ships no public REST API; Morph is a hosted product
+  plus a self-hosted ModelDaemon). Recent window captured below.
+entries:
+- date: '2026-07'
+  title: July 2026
+  breaking: false
+  highlights:
+  - Parallel milestone execution — independent milestones (no shared file dependencies)
+    run simultaneously, each on its own branch and PR; dependent milestones stay locked.
+  - Rebase Required detection — Morph flags sibling branches that need to incorporate
+    newly merged code, with one-click agent-handled integration.
+  - Collaborative review — multiple team members review the same milestone at once,
+    each with an independent review chat session.
+  - Per-user ModelDaemon routing — one daemon per user instead of one per project,
+    reporting online/busy/offline status in real time.
+  - Upstream sync — incorporate mainline changes pushed during a migration via a
+    sync milestone that rebases in-progress branches.
+- date: '2026-06'
+  title: June 2026
+  breaking: false
+  highlights:
+  - Acceptance Criteria — measurable automated quality gates (performance thresholds,
+    coverage targets, benchmark results) enforced before a milestone PR merges,
+    baselined from the original codebase.
+  - Stronger quality gates, more flexible project setup, smarter functional testing,
+    better notifications, and expanded deployment options for restricted environments.

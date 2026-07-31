@@ -1,9 +1,29 @@
 aid: modelcode
 name: Modelcode
-description: 'Modelcode is a company surfaced as a portfolio company of bessemer-venture-partners and
-  added to the API Evangelist network as a stub for enrichment. Sector: ai-ml. This profile is a lead
-  awaiting the enrichment pipeline.'
+description: >-
+  Modelcode AI builds Morph, an AI-powered code modernization platform that transforms
+  legacy software into modern, maintainable codebases. Morph plans, executes, tests, and
+  verifies complex migrations — language upgrades, language translations (COBOL to Java,
+  Ada to C++, Python 2 to 3), framework migrations (AngularJS to React, Express to
+  FastAPI), dependency modernization, and monolith-to-microservices decomposition — while
+  keeping engineering teams in control through project specifications, incremental
+  milestones, pull requests, and measurable acceptance criteria. Build and test workflows
+  run in Modelcode-hosted sandboxes or via a self-hosted ModelDaemon inside a customer's
+  own environment for apps that depend on private services and internal infrastructure.
+  Backed by Bessemer Venture Partners.
 url: https://raw.githubusercontent.com/api-evangelist/modelcode/refs/heads/main/apis.yml
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://modelcode.ai/icon.svg
 x-type: company
 x-source: vc-portfolio
 x-backed-by:
@@ -12,10 +32,16 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-20'
 tags:
 - Company
 - Ai Ml
+- Code Modernization
+- Legacy Migration
+- Developer Tools
+- Software Engineering
+- AI Agents
+- DevOps
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -25,3 +51,36 @@ maintainers:
 common:
 - type: Website
   url: https://modelcode.ai/
+- type: Documentation
+  url: https://docs.modelcode.ai/introduction
+- type: GettingStarted
+  url: https://docs.modelcode.ai/quickstart
+- type: Blog
+  url: https://blog.modelcode.ai/
+- type: GitHubOrganization
+  url: https://github.com/Modelcode-ai
+- type: Support
+  url: https://modelcode.ai/contact
+- type: Pricing
+  url: https://docs.modelcode.ai/support/billing-and-credits
+- type: TermsOfService
+  url: https://modelcode.ai/terms
+- type: PrivacyPolicy
+  url: https://modelcode.ai/privacy
+- type: ChangeLog
+  url: https://docs.modelcode.ai/support/whats-new
+- type: ChangeLog
+  url: changelog/modelcode-changelog.yml
+- type: LLMsTxt
+  url: llms/modelcode-llms.txt
+- type: Compliance
+  url: https://trust.modelcode.ai/
+- type: TrustCenter
+  url: security/modelcode-trust-center.yml
+- type: DomainSecurity
+  url: security/modelcode-domain-security.yml
+x-enrichment:
+  date: '2026-07-20'
+  status: enriched
+  artifacts_added: 4
+  pass: local-v1
